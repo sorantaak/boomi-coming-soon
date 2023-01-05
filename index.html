@@ -10,6 +10,7 @@
 			content="پوشاک استوک، لباس استوک، فروشگاه پوشاک استوک ، فروشگاه پوشاک استوک بومی، پوشاک استوک بومی، کفش بچه گانه، پوشاک خارجی، لباس استوک، لباس ورزشی،"
 		/>
 		<title>Document</title>
+		<link rel="stylesheet" href="style.css" />
 		<script src="https://cdn.tailwindcss.com"></script>
 		<script>
 			tailwind.config = {
@@ -18,6 +19,9 @@
 						backgroundImage: {
 							"bg-image": "url('./img/boomi.jpg')",
 						},
+					},
+					fontFamily: {
+						vazir: "Vazirmatn",
 					},
 				},
 			};
@@ -30,11 +34,14 @@
 			<div
 				class="h-full flex flex-col justify-center items-center space-y-1 z-1 bg-slate-700/30"
 			>
-				<div class="text-[50px] text-[#e5d177]">فروشگاه پوشاک استوک</div>
+				<div class="text-[50px] text-[#e5d177] font-vazir font-bold">
+					فروشگاه پوشاک استوک
+				</div>
 				<div class="w-[544px] h-[208px]">
 					<img src="./img/logo.png" alt="" />
 				</div>
 				<div class="text-[100px] text-[#e5d177]">Coming Soon</div>
+				<div class="h-[1px] w-[544px] bg-[#e5d177]"></div>
 			</div>
 		</div>
 	</body>
