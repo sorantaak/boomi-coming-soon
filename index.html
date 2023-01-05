@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<script src="https://cdn.tailwindcss.com"></script>
+		<script>
+			tailwind.config = {
+				theme: {
+					extend: {
+						backgroundImage: {
+							"bg-image": "url('./img/boomi.jpg')",
+						},
+					},
+				},
+			};
+		</script>
+	</head>
+	<body>
+		<div
+			class="w-screen h-screen bg-[url('/img/boomi.jpg')] bg-cover bg-center bg-fixed w-full h-screen relative"
+		>
+			<div
+				class="h-full flex flex-col justify-center items-center space-y-1 z-1 bg-slate-700/30"
+			>
+				<div class="text-[50px] text-[#e5d177]">فروشگاه پوشاک استوک</div>
+				<div class="w-[544px] h-[208px]">
+					<img src="./img/logo.png" alt="" />
+				</div>
+				<div class="text-[100px] text-[#e5d177]">Coming Soon</div>
+			</div>
+		</div>
+	</body>
+</html>
