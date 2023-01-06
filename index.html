@@ -1,6 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="img/favicon-32x32.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="16x16"
+			href="img/favicon-16x16.png"
+		/>
+		<link rel="manifest" href="/site.webmanifest" />
+		<link rel="mask-icon" href="img/safari-pinned-tab.svg" color="#5bbad5" />
+		<meta name="msapplication-TileColor" content="#da532c" />
+		<meta name="theme-color" content="#ffffff" />
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,7 +26,7 @@
 			name="keywords"
 			content="پوشاک استوک، لباس استوک، فروشگاه پوشاک استوک ، فروشگاه پوشاک استوک بومی، پوشاک استوک بومی، کفش بچه گانه، پوشاک خارجی، لباس استوک، لباس ورزشی،"
 		/>
-		<title>Document</title>
+		<title>فروشگاه پوشاک استوک بومی</title>
 		<link rel="stylesheet" href="style.css" />
 		<script src="https://cdn.tailwindcss.com"></script>
 		<script>
@@ -29,19 +46,25 @@
 	</head>
 	<body>
 		<div
-			class="w-screen h-screen bg-[url('/img/boomi.jpg')] bg-cover bg-center bg-fixed w-full h-screen relative"
+			class="w-screen h-screen bg-[url('/img/boomi.jpg')] bg-cover bg-fixed bg-center bg-no-repeat w-full relative"
 		>
 			<div
-				class="h-full flex flex-col justify-center items-center space-y-1 z-1 bg-slate-700/30"
+				class="pt-5 md:pt-0 h-full flex flex-col justify-center items-center space-y-1 z-1 bg-black/40"
 			>
-				<div class="text-[50px] text-[#e5d177] font-vazir font-bold">
+				<div
+					class="text-[50px] text-[#e5d177] font-vazir font-bold text-center"
+				>
 					فروشگاه پوشاک استوک
 				</div>
-				<div class="w-[544px] h-[208px]">
+				<div class="h-[208px]">
 					<img src="./img/logo.png" alt="" />
 				</div>
-				<div class="text-[100px] text-[#e5d177]">Coming Soon</div>
-				<div class="h-[1px] w-[544px] bg-[#e5d177]"></div>
+				<div
+					class="text-[70px] font-bold sm:text-[90px] text-[#e5d177] text-center"
+				>
+					Coming Soon
+				</div>
+				<div class="h-[1px] w-full max-w-[544px] bg-[#e5d177]"></div>
 			</div>
 		</div>
 	</body>
